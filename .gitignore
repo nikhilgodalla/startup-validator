@@ -1,0 +1,83 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# Virtual Environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# ---------------------------
+# Environment & Secrets
+# ---------------------------
+*.env
+.env.*
+serper_key.txt
+groq_api_key.txt
+api_keys/
+credentials.json
+
+# ---------------------------
+# Cache & Logs
+# ---------------------------
+*.log
+.cache/
+*.cache
+pip-log.txt
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# ---------------------------
+# Build Artifacts
+# ---------------------------
+build/
+dist/
+*.egg
+*.whl
+
+# ---------------------------
+# Streamlit
+# ---------------------------
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# ---------------------------
+# Jupyter
+# ---------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------------------------
+# IDE / Editor
+# ---------------------------
+.vscode/
+.idea/
+*.iml
+
+# ---------------------------
+# OS System Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Your Project Files
+# (AI Startup Validator)
+# ---------------------------
+reports/
+output/
+temp/
+cache/
+exports/
+logs/
+__results__/
